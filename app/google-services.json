@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "949608079499",
+    "project_id": "zajko-2705c",
+    "storage_bucket": "zajko-2705c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949608079499:android:27b3fa3c0d94ee1afb348e",
+        "android_client_info": {
+          "package_name": "sk.tuke.zadanie_zajko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949608079499-33vrpjkd993l8tgvtd3lar7hres8ojho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sk.tuke.zadanie_zajko",
+            "certificate_hash": "04adfc23a65d5cfce63235ebb96d201a3c070b38"
+          }
+        },
+        {
+          "client_id": "949608079499-e4bvqobuqhhr79oqj79i5nh9f4omp08b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4a6yoGdEPmCcrGQId6WHwRxOf3jwNGrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949608079499-e4bvqobuqhhr79oqj79i5nh9f4omp08b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

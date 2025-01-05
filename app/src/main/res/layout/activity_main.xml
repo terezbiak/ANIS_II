@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e7dfc2"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/title" />
+
+    <ImageView
+
+        android:layout_width="139dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        app:srcCompat="@drawable/bunny" />
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="595dp"
+        android:layout_height="108dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="Not logged in" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="40px"
+        android:backgroundTint="#bb8044"
+        android:fontFamily="@font/amatic"
+        android:onClick="startGame"
+        android:text="Start"
+        android:textColor="@android:color/white"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:onClick="login"
+        android:layout_marginTop="40px"
+        android:backgroundTint="#bb8044"
+        android:fontFamily="@font/amatic"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:text="Account" />
+
+
+</LinearLayout>
